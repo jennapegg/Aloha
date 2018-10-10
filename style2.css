@@ -51,13 +51,13 @@
 
 @font-face {
   font-family: "Playfair-Display-Regular";
-  src: url("fonts/PlayfairDisplaySC-Regular.eot");
-  src: url("fonts/PlayfairDisplaySC-Regular.eot?#iefix")
+  src: url("fonts/PlayfairDisplay-Regular.eot");
+  src: url("fonts/PlayfairDisplay-Regular.eot?#iefix")
       format("embedded-opentype"),
-    url("fonts/PlayfairDisplaySC-Regular.woff2") format("woff2"),
-    url("fonts/PlayfairDisplaySC-Regular.woff") format("woff"),
-    url("fonts/PlayfairDisplaySC-Regular.ttf") format("truetype"),
-    url("fonts/PlayfairDisplaySC-Regular.svg#PlayfairDisplaySC-Regular")
+    url("fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("fonts/PlayfairDisplay-Regular.woff") format("woff"),
+    url("fonts/PlayfairDisplay-Regular.ttf") format("truetype"),
+    url("fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -230,17 +230,62 @@ h1 {
 .shop img {
   height: 200px;
   width: 100%;
-  justify-content: row;
+  /* justify-content: row; */
   /* border: 5px solid white; */
-  display: flex;
-  color: linear-gradient(rgba(0, 0, 0, 0.25),(rgba(0, 0, 0, 0.25));
+  /* display: flex; */
+  position: relative;
+  /* color: linear-gradient(rgba(0, 0, 0, 0.25),(rgba(0, 0, 0, 0.25)); */
+}
+
+.shop figure::after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
 }
 
 .wide img {
   width: 100%;
 }
 
-/* TABLET */
+/* UPDATES */
+
+.updates {
+  width: 100%;
+}
+
+/* .updates h2 {
+  text-align: center;
+} */
+
+.updates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="email"] {
+  border-radius: 20px;
+  width: 200px;
+  padding: 10px;
+}
+
+.updates button {
+  border-radius: 15px;
+  margin-left: -95px;
+  background: #e2574c;
+  color: white;
+  padding: 3px 10px;
+}
+
+/* ADD DISPLAY NONE WHEN TAKING OUT THE TEXT FOR ICONS OF SOCIAL MEDIA MOBILE */
+
+/* ----------------TABLET---------------------- */
 
 @media all and (min-width: 480px) {
   .container {
@@ -274,7 +319,7 @@ h1 {
 } */
 }
 
-/* DESKTOP */
+/* -------------DESKTOP--------------- */
 
 @media all and (min-width: 600px) {
   .container {
