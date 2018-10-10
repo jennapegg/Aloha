@@ -169,7 +169,7 @@ h2 span {
 }
 
 h1 {
-  font-family: "Playfair-Display-Italic";
+  font-family: "Playfair-Display-Regular";
   font-size: 2em;
   font-weight: lighter;
 }
@@ -196,12 +196,24 @@ h1 {
 }
 
 .shop-img {
-  border: 1px solid #dddddd;
-  width: 50%;
+  /* border: 1px solid #dddddd; */
+  width: 47.5%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5px;
+}
+
+.shop-img:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .wide {
@@ -212,14 +224,16 @@ h1 {
   position: absolute;
   z-index: 1000;
   padding: 5px;
+  font-family: "Raleway";
 }
 
 .shop img {
   height: 200px;
   width: 100%;
   justify-content: row;
-  border: 5px solid white;
+  /* border: 5px solid white; */
   display: flex;
+  color: linear-gradient(rgba(0, 0, 0, 0.25),(rgba(0, 0, 0, 0.25));
 }
 
 .wide img {
