@@ -81,8 +81,8 @@ h2 {
   font-family: "Playfair-Display-Bold";
   text-align: center;
   font-size: 2em;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  /* padding-top: 40px;
+  padding-bottom: 20px; */
 }
 
 h2 span {
@@ -182,13 +182,6 @@ h1 {
   color: white;
   font-family: "Playfair-Display-Regular";
 }
-/* .shop-img img {
-  display: flex;
-}
-
-.shop-img {
-  display: flex;
-} */
 
 .shop {
   display: flex;
@@ -196,24 +189,12 @@ h1 {
 }
 
 .shop-img {
-  /* border: 1px solid #dddddd; */
   width: 47.5%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5px;
-}
-
-.shop-img:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.25);
 }
 
 .wide {
@@ -227,14 +208,12 @@ h1 {
   font-family: "Raleway";
 }
 
+/* WHAT JIM CHANGED */
+
 .shop img {
-  height: 200px;
+  height: auto;
   width: 100%;
-  /* justify-content: row; */
-  /* border: 5px solid white; */
-  /* display: flex; */
   position: relative;
-  /* color: linear-gradient(rgba(0, 0, 0, 0.25),(rgba(0, 0, 0, 0.25)); */
 }
 
 .shop figure::after {
@@ -248,6 +227,7 @@ h1 {
   left: 0;
   z-index: 99;
 }
+/* WHAT JIM CHANGED */
 
 .wide img {
   width: 100%;
@@ -267,12 +247,16 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(./images/wave-bkgd.jpg) no-repeat center bottom;
 }
 
-input[type="email"] {
+.updates input[type="email"] {
   border-radius: 20px;
-  width: 200px;
+  width: 350px;
   padding: 10px;
+  border: none;
 }
 
 .updates button {
@@ -281,6 +265,7 @@ input[type="email"] {
   background: #e2574c;
   color: white;
   padding: 3px 10px;
+  border: none;
 }
 
 /* ADD DISPLAY NONE WHEN TAKING OUT THE TEXT FOR ICONS OF SOCIAL MEDIA MOBILE */
