@@ -175,6 +175,8 @@ h1 {
   font-weight: lighter;
 }
 
+/* ABOUT */
+
 /* SHOP */
 
 .shop h4 a {
@@ -275,10 +277,18 @@ h1 {
 .info {
   background: #242424;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   text-align: center;
-  height: 275px;
+  height: 300px;
   margin-top: 10px;
   font-family: "Playfair-Display-Regular";
+}
+
+.info p {
+  align-content: center;
+  margin: 20px 0;
 }
 
 .info a {
@@ -292,8 +302,10 @@ h1 {
 .info ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
+  margin: 0 35%;
+  margin-bottom: 10%;
 }
 
 /* ADD DISPLAY NONE WHEN TAKING OUT THE TEXT FOR ICONS OF SOCIAL MEDIA MOBILE */
