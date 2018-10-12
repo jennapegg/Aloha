@@ -69,10 +69,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-}
-
 body {
   font-family: "Raleway";
 }
@@ -93,6 +89,11 @@ h2 span {
 }
 
 /* -----------------MOBILE-------------------- */
+
+html {
+  font-size: 14px;
+}
+
 .container {
   max-width: 500px;
   min-width: 100px;
@@ -300,6 +301,11 @@ h1 {
 /* ----------------TABLET---------------------- */
 
 @media all and (min-width: 480px) {
+  /* PAGE EDITS */
+
+  html {
+    font-size: 16px;
+  }
   .container {
     max-width: 600px;
     min-width: 500px;
@@ -334,6 +340,8 @@ h1 {
 /* -------------DESKTOP--------------- */
 
 @media all and (min-width: 600px) {
+  /* PAGE EDITS */
+
   .container {
     max-width: 1240px;
     min-width: 100px;
