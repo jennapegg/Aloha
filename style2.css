@@ -73,6 +73,12 @@ body {
   font-family: "Raleway";
 }
 
+/* responsive image */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 h2 {
   font-family: "Playfair-Display-Bold";
   text-align: center;
@@ -177,6 +183,13 @@ h1 {
 
 /* ABOUT */
 
+.about {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 /* SHOP */
 
 .shop h4 a {
@@ -233,6 +246,13 @@ h1 {
 
 .wide img {
   width: 100%;
+}
+
+/* CAROUSEL */
+
+.main-carousel .carousel-cell {
+  width: 100%;
+  height: auto;
 }
 
 /* UPDATES */
@@ -322,6 +342,11 @@ h1 {
     max-width: 600px;
     min-width: 500px;
   }
+
+  .main-carousel .carousel-cell {
+    width: 50%;
+    height: auto;
+  }
   /* .logo img {
   height: 50px;
   padding-bottom: 5px;
@@ -357,5 +382,10 @@ h1 {
   .container {
     max-width: 1240px;
     min-width: 100px;
+  }
+
+  .main-carousel .carousel-cell {
+    width: 25%;
+    height: auto;
   }
 }

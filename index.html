@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Raleway:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+    <!-- CSS from flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- end of CSS from flickity -->
     <link rel="stylesheet" href="style2.css">
     <title>Aloha Apparel Co.</title>
 </head>
@@ -50,7 +53,7 @@
         <h1>Spring/Summer 2019</h1>
     </section>
 
-    <section id="about" class="container">
+    <section id="about" class="container about">
         <h2> <span>Hand-Crafted</span> Styles</h2>
         <p>
             Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products
@@ -91,71 +94,63 @@
     <section id="featured" class="container">
         <h2><span>Most-Loved</span> Products</h2>
         <!-- Where carousel begins -->
-        <div id="carousel">
-            <figure>
+        <div class="main-carousel">
+            <div class="carousel-cell">
                 <img src="./images/stretch-knit-dress.jpg" alt="">
 
                 <p>Dresses</p>
                 <h4>Stretch Knit Dress</h4>
                 <p>$169.00</p>
-
-            </figure>
-            <figure>
+            </div>
+            <div class="carousel-cell">
                 <img src="./images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt">
 
                 <p>Shirts</p>
                 <h4>Cottom Blue Shirt</h4>
                 <p>$89.00</p>
-
-            </figure>
-            <figure>
+            </div>
+            <div class="carousel-cell">
                 <img src="./images/checked-stretch-dress.jpg" alt="Checked Stretch Dress">
 
                 <p>Dresses</p>
                 <h4>Checked Stretch Dress</h4>
                 <p>$129.00</p>
-
-            </figure>
-            <figure>
+            </div>
+            <div class="carousel-cell">
                 <img src="./images/blue-hipster-backpack.jpg" alt="">
 
                 <p>Bags</p>
                 <h4>Blue Hipster Backpack</h4>
                 <p>$69.00</p>
-
-            </figure>
-            <figure>
+            </div>
+            <div class="carousel-cell">
                 <img src="./images/demin-overall-shorts.jpg" alt="">
 
                 <p>Denim</p>
                 <h4>Denim Overall Shorts</h4>
                 <p>$89.00</p>
-
-            </figure>
-            <figure>
+            </div>
+            <div class="carousel-cell">
                 <img src="./images/pink-dotted-dress.jpg" alt="">
 
                 <p>Dresses</p>
                 <h4>Pink Dotted Dress</h4>
                 <p>$99.00</p>
-
-            </figure>
-            <figure>
+            </div>
+            <div class="carousel-cell">
                 <img src="./images/blue-silk-dress.jpg" alt="">
 
                 <p>Dresses</p>
                 <h4>Blue Silk Dress</h4>
                 <p>$119.00</p>
-
-            </figure>
-            <figure>
+            </div>
+            <div class="carousel-cell">
                 <img src="./images/cotton-yellow-tshirt.jpg" alt="">
 
                 <p>Shirts</p>
                 <h4>Cotton Yellow T-shirt</h4>
                 <p>$49.00</p>
-
-            </figure>
+            </div>
         </div>
     </section>
 
@@ -201,7 +196,10 @@
         </div>
         <!-- <h4></h4> -->
     </footer>
-
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- JavaScript from Flickety -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="script.js"></script>
 </body>
 <!-- GENERAL NOTES -->
