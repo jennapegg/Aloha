@@ -37,15 +37,14 @@
 
 @font-face {
   font-family: "Playfair-Display-Italic";
-  src: url("fonts/PlayfairDisplay-BoldItalic.eot");
-  src: url("fonts/PlayfairDisplay-BoldItalic.eot?#iefix")
+  src: url("fonts/PlayfairDisplay-Italic.eot");
+  src: url("fonts/PlayfairDisplay-Italic.eot?#iefix")
       format("embedded-opentype"),
-    url("fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
-    url("fonts/PlayfairDisplay-BoldItalic.woff") format("woff"),
-    url("fonts/PlayfairDisplay-BoldItalic.ttf") format("truetype"),
-    url("fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic")
+    url("fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("fonts/PlayfairDisplay-Italic.woff") format("woff"),
+    url("fonts/PlayfairDisplay-Italic.ttf") format("truetype"),
+    url("fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-BoldItalic")
       format("svg");
-  font-weight: bold;
   font-style: italic;
 }
 
@@ -82,16 +81,11 @@ img {
 h2 {
   font-family: "Playfair-Display-Bold";
   text-align: center;
-  font-size: 2em;
-  /* padding-top: 40px;
-  padding-bottom: 20px; */
+  font-size: 30px;
 }
 
 h2 span {
-  font-family: "Playfair-Display-Regular";
-  font-style: italic;
-  font-weight: normal;
-  text-transform: capitalize;
+  font-family: "Playfair-Display-Italic";
 }
 
 /* -----------------MOBILE-------------------- */
@@ -142,6 +136,7 @@ html {
 .top-navigation li {
   text-decoration: none;
   font-weight: bolder;
+  font-size: 13px;
   align-content: center;
   color: #e2574c;
   text-transform: uppercase;
@@ -161,24 +156,27 @@ html {
   text-align: center;
   color: #ffffff;
   font-family: "Raleway";
-  padding-top: 40%;
-  padding-bottom: 40%;
+  height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(./images/banner-girl.png) no-repeat center bottom,
     url(./images/flower-bkgd.jpg) repeat-x;
-  /* background-size: 67%, 20%; */
-  background-size: cover, 35%;
-  background-position: 0, center 50px;
+  background-size: cover, 150px;
+  background-position: 0, center 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.main-banner h5 {
+  font-size: 17px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+
 h1 {
   font-family: "Playfair-Display-Regular";
-  font-size: 2em;
-  font-weight: lighter;
+  font-size: 35px;
 }
 
 /* ABOUT */
@@ -188,13 +186,16 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-size: 16px;
 }
 
 /* SHOP */
 
 .shop h4 a {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
   color: white;
   font-family: "Raleway";
 }
@@ -263,6 +264,7 @@ h1 {
   display: flex;
   flex-direction: column;
   color: #ffffff;
+  font-size: 16px;
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
@@ -308,7 +310,8 @@ h1 {
 
 .info p {
   align-content: center;
-  margin: 20px 0;
+  margin: 15px 0;
+  line-height: 20px;
 }
 
 .info a {
@@ -326,6 +329,7 @@ h1 {
   align-content: center;
   margin: 0 35%;
   margin-bottom: 10%;
+  padding-top: 20px;
 }
 
 /* ADD DISPLAY NONE WHEN TAKING OUT THE TEXT FOR ICONS OF SOCIAL MEDIA MOBILE */
