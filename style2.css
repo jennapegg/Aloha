@@ -81,7 +81,7 @@ img {
 h2 {
   font-family: "Playfair-Display-Bold";
   text-align: center;
-  font-size: 30px;
+  font-size: 33px;
 }
 
 h2 span {
@@ -182,11 +182,17 @@ h1 {
 /* ABOUT */
 
 .about {
-  height: 200px;
+  height: 255px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 15px;
+}
+.about h2 {
+  padding-bottom: 35px;
 }
 
 /* SHOP */
@@ -216,6 +222,8 @@ h1 {
 
 .wide {
   width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .shop h4 {
@@ -245,10 +253,6 @@ h1 {
 }
 /* WHAT JIM CHANGED */
 
-.wide img {
-  width: 100%;
-}
-
 /* CAROUSEL */
 
 .main-carousel .carousel-cell {
@@ -260,14 +264,14 @@ h1 {
 
 .updates {
   width: 100%;
-  height: 325px;
+  height: 335px;
   display: flex;
   flex-direction: column;
   color: #ffffff;
   font-size: 16px;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
     url(./images/wave-bkgd.jpg) no-repeat center bottom;
 }
 
@@ -306,12 +310,18 @@ h1 {
   height: 300px;
   margin-top: 10px;
   font-family: "Playfair-Display-Regular";
+  padding-bottom: 20px;
+  padding-top: 35px;
 }
 
 .info p {
   align-content: center;
   margin: 15px 0;
   line-height: 20px;
+}
+
+.address {
+  color: #969696;
 }
 
 .info a {
