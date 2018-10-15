@@ -588,4 +588,30 @@ h1 {
   }
 
   /* ABOUT DESKTOP */
+
+  .about {
+    height: 270px;
+    padding: 0 20%;
+  }
+
+  /* SHOP DESKTOP */
+
+  .shop {
+    align-content: center;
+  }
+
+  .shop h4 a {
+    font-size: 37px;
+  }
+
+  .shop-img {
+    width: 24.5%;
+    margin-top: 7px;
+    border: none;
+  }
+
+  .wide {
+    width: 49.7%;
+    height: auto;
+  }
 }
