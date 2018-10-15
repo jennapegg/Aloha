@@ -507,8 +507,7 @@ h1 {
   .icons i span {
     display: initial;
     font-family: "Raleway";
-    padding-right: 10px;
-    display: inline-block;
+    padding-left: 15px;
   }
 
   .info ul {
@@ -613,5 +612,16 @@ h1 {
   .wide {
     width: 49.7%;
     height: auto;
+  }
+
+  /* FOOTER DESKTOP */
+
+  .info {
+    margin-top: 10px;
+    padding: 0 100px 0 45px;
+  }
+
+  .info p {
+    line-height: 23px;
   }
 }
