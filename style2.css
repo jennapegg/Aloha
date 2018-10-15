@@ -535,4 +535,38 @@ h1 {
     width: 25%;
     height: auto;
   }
+
+  /* NAVBAR DESKTOP */
+
+  .nav-bar-top {
+    height: 100px;
+  }
+
+  .logo {
+    margin: 0 35px;
+  }
+
+  .logo img {
+    height: 60px;
+  }
+
+  .cart img {
+    height: 60px;
+  }
+
+  .top-navigation {
+    border-top: none;
+    padding: 0 9%;
+    margin: 0 10px;
+  }
+
+  .top-navigation li a {
+    font-size: 16px;
+  }
+
+  .top-navigation ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
 }
