@@ -290,6 +290,7 @@ h1 {
   width: 350px;
   padding: 15px;
   border: none;
+  font-family: "Raleway";
 }
 
 .updates button {
@@ -612,6 +613,28 @@ h1 {
   .wide {
     width: 49.7%;
     height: auto;
+  }
+
+  /* UPDATES DESKTOP */
+
+  .updates {
+    padding: 0 24%;
+    font-size: 18px;
+  }
+
+  .updates input[type="email"] {
+    width: 450px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+
+  .updates button {
+    padding: 12px 26px;
+    margin-left: -130px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bolder;
   }
 
   /* FOOTER DESKTOP */
