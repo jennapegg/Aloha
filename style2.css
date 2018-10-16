@@ -263,6 +263,17 @@ h1 {
   width: 100%;
   height: auto;
 }
+.carousel-cell img {
+  width: 100%;
+}
+
+.flickity-button {
+  display: none;
+}
+
+.featured {
+  height: 800px;
+}
 
 /* UPDATES */
 

@@ -48,6 +48,16 @@ $(document).ready(function() {
     // options
     cellAlign: "left",
     contain: true,
-    wrapAround: true
+    wrapAround: true,
+    autoPlay: true
   });
+
+  $("#my-form").on("submit", function(event) {
+    event.preventDefault();
+    if ($("#my-text-input").val() == "") {
+      alert("You missed the field.");
+    } else {
+      alert("Thanks for filling the field!");
+    }
+  }); //END OF SUBMIT FORM
 }); //END OF DOC READY
