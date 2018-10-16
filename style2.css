@@ -135,6 +135,10 @@ h2 {
   margin: 0 10px;
 }
 
+.top-navigation a:hover {
+  color: #b64036;
+}
+
 .top-navigation li a,
 .top-navigation li {
   text-decoration: none;
@@ -163,7 +167,7 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(./images/banner-girl.png) no-repeat center bottom,
     url(./images/flower-bkgd.jpg) repeat-x;
-  background-size: cover, 150px;
+  background-size: cover, cover, 150px;
   background-position: 0, center 60px;
   display: flex;
   flex-direction: column;
@@ -264,7 +268,7 @@ h1 {
   height: auto;
 }
 .carousel-cell img {
-  width: 100%;
+  align-content: center;
 }
 
 .flickity-button {
@@ -272,6 +276,10 @@ h1 {
 }
 
 .featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   height: 800px;
 }
 
@@ -539,7 +547,7 @@ h1 {
 
   .container {
     max-width: 1240px;
-    min-width: 100px;
+    /* min-width: 100px; */
   }
 
   .main-carousel .carousel-cell {
@@ -585,7 +593,7 @@ h1 {
 
   .main-banner {
     height: 550px;
-    background-size: cover, 250px;
+    background-size: cover, 250px, contain;
     background-position: 0, center 60px;
   }
 
