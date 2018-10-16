@@ -52,12 +52,12 @@ $(document).ready(function() {
     autoPlay: true
   });
 
-  $("#my-form").on("submit", function(event) {
+  $("#email").on("submit", function(event) {
     event.preventDefault();
-    if ($("#my-text-input").val() == "") {
-      alert("You missed the field.");
+    if ($("input[type='email']").val() == "") {
+      alert("Please submit a valid email address.");
     } else {
-      alert("Thanks for filling the field!");
+      alert("Thanks for subscribing!");
     }
   }); //END OF SUBMIT FORM
 }); //END OF DOC READY
