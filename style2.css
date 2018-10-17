@@ -171,7 +171,7 @@ h2 {
   background-size: cover, 150px;
   background-position: 0, center 60px;
   display: flex;
-  text-shadow: 2px 2px 2px #575454;
+  text-shadow: 1px 1px 2px #575454;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -214,6 +214,7 @@ h1 {
   text-transform: uppercase;
   color: white;
   font-family: "Raleway";
+  text-shadow: 1px 1px 2px #575454;
 }
 
 .shop {
@@ -319,6 +320,7 @@ h1 {
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
     url(./images/wave-bkgd.jpg) no-repeat center bottom;
+  text-shadow: 1px 1px 2px #575454;
 }
 
 .updates p {
@@ -613,6 +615,7 @@ h1 {
     height: 550px;
     background-size: cover, 250px, contain;
     background-position: 0, center 60px;
+    text-shadow: 2px 2px 2px #575454;
   }
 
   .main-banner h5 {
@@ -654,6 +657,7 @@ h1 {
 
   .shop h4 a {
     font-size: 37px;
+    text-shadow: 2px 2px 2px #575454;
   }
 
   .shop-img {
@@ -695,6 +699,7 @@ h1 {
   .info {
     margin-top: 10px;
     padding: 0 100px 0 45px;
+    text-shadow: 2px 2px 2px #575454;
   }
 
   .info p {
