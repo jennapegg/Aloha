@@ -217,6 +217,10 @@ h1 {
   text-shadow: 1px 1px 2px #575454;
 }
 
+.shop h4 a:hover {
+  color: rgb(224, 224, 159);
+}
+
 .shop {
   display: flex;
   flex-wrap: wrap;
@@ -377,6 +381,14 @@ h1 {
   color: white;
 }
 
+.icons a:hover {
+  color: #b64036;
+}
+
+.footer-paragraphs a:hover {
+  color: #b64036;
+}
+
 .info i span {
   display: none;
 }
@@ -496,6 +508,18 @@ h1 {
   .main-carousel .carousel-cell {
     width: 50%;
     height: auto;
+  }
+
+  .featured {
+    height: 600px;
+  }
+
+  .featured h4 {
+    font-size: 25px;
+  }
+
+  .carousel-cell img {
+    height: 50vh;
   }
 
   /* UPADATES TABLET */
@@ -641,12 +665,30 @@ h1 {
     height: auto;
   }
 
+  .carousel-cell {
+    padding-bottom: 40px;
+  }
+
   .carousel-cell img {
     height: 40vh;
   }
 
   .featured {
     height: 630px;
+  }
+
+  .featured h4 {
+    font-size: 25px;
+  }
+
+  .product-description {
+    font-size: 12px;
+    padding: 15px 0;
+  }
+
+  .product-price {
+    font-size: 15px;
+    padding: 15px 0;
   }
 
   /* SHOP DESKTOP */
