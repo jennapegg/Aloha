@@ -48,8 +48,8 @@ $(document).ready(function() {
     // options
     cellAlign: "left",
     contain: true,
-    wrapAround: true,
-    autoPlay: true
+    wrapAround: true
+    // autoPlay: true
   });
 
   $("#email").on("submit", function(event) {

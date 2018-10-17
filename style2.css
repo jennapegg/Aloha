@@ -70,6 +70,7 @@
 
 body {
   font-family: "Raleway";
+  color: #2d2d2d;
 }
 
 /* responsive image */
@@ -167,9 +168,10 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(./images/banner-girl.png) no-repeat center bottom,
     url(./images/flower-bkgd.jpg) repeat-x;
-  background-size: cover, cover, 150px;
+  background-size: cover, 150px;
   background-position: 0, center 60px;
   display: flex;
+  text-shadow: 2px 2px 2px #575454;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -239,8 +241,6 @@ h1 {
   /* padding: 5px; */
 }
 
-/* WHAT JIM CHANGED */
-
 .shop img {
   height: auto;
   width: 100%;
@@ -259,28 +259,51 @@ h1 {
   left: 0;
   z-index: 99;
 }
-/* WHAT JIM CHANGED */
 
 /* CAROUSEL */
+
+.featured {
+  height: 700px;
+  font-family: "Raleway";
+}
 
 .main-carousel .carousel-cell {
   width: 100%;
   height: auto;
+  text-align: center;
 }
-.carousel-cell img {
-  align-content: center;
+
+.carousel-cell {
+  padding-bottom: 50px;
 }
 
 .flickity-button {
   display: none;
 }
 
-.featured {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  height: 800px;
+.featured h2 {
+  padding: 65px 0;
+}
+
+.featured h4 {
+  color: #e2574c;
+  font-family: "Playfair-Display";
+  font-size: 25px;
+}
+
+.product-description {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  color: #969696;
+}
+
+.product-price {
+  font-size: 14px;
+  padding: 15px 0;
+  font-weight: bolder;
+  color: #969696;
 }
 
 /* UPDATES */
@@ -542,17 +565,12 @@ h1 {
 
 /* -------------DESKTOP--------------- */
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 1240px) {
   /* PAGE EDITS */
 
   .container {
     max-width: 1240px;
     /* min-width: 100px; */
-  }
-
-  .main-carousel .carousel-cell {
-    width: 25%;
-    height: auto;
   }
 
   /* NAVBAR DESKTOP */
@@ -611,6 +629,21 @@ h1 {
   .about {
     height: 260px;
     padding: 0 23%;
+  }
+
+  /* CAROUSEL DESKTOP */
+
+  .main-carousel .carousel-cell {
+    width: 25%;
+    height: auto;
+  }
+
+  .carousel-cell img {
+    height: 40vh;
+  }
+
+  .featured {
+    height: 630px;
   }
 
   /* SHOP DESKTOP */
