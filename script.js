@@ -1,5 +1,19 @@
 $(document).ready(function() {
   // Select all links with hashes
+  // Fix "Skip Link" Focus in Webkit
+  $(function() {
+    $("a[href^='#']")
+      .not("a[href='#']")
+      .click(function() {
+        $(
+          '#' +
+            $(this)
+              .attr('href')
+              .slice(1) +
+            ''
+        ).focus();
+      });
+  });
   //SMOOTH SCROLL FROM CSS TRICKS
   $('a[href*="#"]')
     // Remove links that don't actually link to anything

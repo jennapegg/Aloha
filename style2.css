@@ -100,6 +100,20 @@ h2 span {
   z-index: 100000; /* above all content */
 }
 
+#about[tabindex='-1']:focus {
+  outline: 0;
+}
+
+.skip {
+  color: #e2574c;
+  text-decoration: none;
+  font-family: 'Playfair-Display-Bold';
+}
+
+.skip:hover {
+  color: #b64036;
+}
+
 /* -----------------MOBILE-------------------- */
 
 /* GENERAL EDITS MOBILE */
