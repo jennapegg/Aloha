@@ -1,21 +1,23 @@
 # Aloha
 
-Aloha is a website built to display my proficiency at html, css, and small amounts of jQuery. The site itself is a clothing website, which includes a navigation bar with smooth scrolling, a main banner, a section about the company itself, how to access the shops and products, a featured items carousel, a subscription box, and a footer containing the information and social media of the site.
+This site is a creation by RED Academy to show students proficiency in HTML, CSS, and use of jQuery plugins. This site is based off of a fictional clothing website, which features smooth scrolling, a featured items carousel, a subscription section, and general site information, such as about, types of clothing/accessories, and social media and contact information.
 
 
 <img src="images/READMEscreenshot.png">
+<img src="images/READMEtabletscreenshot.png">
+<img src="images/READMEmobilescreenshot.png">
 
-# Getting started
+# Technology Used
 
-Any code editor will work for this site, as a standard editor was used, and jquery and javascript cdn's were used in place of downloads.
+<ul>
+    <li>Visual Studio Code</li>
+    <li>Flickity Carousel Plugin</li>
+    <li>Font Awesome</li>
+</ul>
 
-# Code Style
+# Reflections
 
-This was done with standard html, css, and jQuery markup. Through css, I used primarily flexbox to place the images in their correct positions on the page, and used forms/sections in html. The jQuery plug in was used to initiate the smooth scrolling as well as the carousel.
-
-# Contributing
-
-Unfortunately contributions are not available at this time, as this is a school project used for a grade.
+In this site, I learned important skills, such as using media queries, the specificity of CSS, and the importance of mobile first styling. As so much of our media is viewed on smaller and smaller screens, using media queries to differentiate between the screen sizes and ensure that the site is easy to navigate across platforms is becoming increasingly important. 
 
 # Authors
 
