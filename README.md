@@ -5,7 +5,7 @@ This site is a creation by RED Academy to show students proficiency in HTML, CSS
 
 <img src="images/READMEscreenshot.png">
 <img src="images/READMEtabletscreenshot.png">
-<img src="images/READMEmobilescreenshot.png">
+<img src="images/READMEmobilescreenshot.png" style="width: 100px;">
 
 # Technology Used
 
