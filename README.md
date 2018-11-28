@@ -2,6 +2,9 @@
 
 Aloha is a website built to display my proficiency at html, css, and small amounts of jQuery. The site itself is a clothing website, which includes a navigation bar with smooth scrolling, a main banner, a section about the company itself, how to access the shops and products, a featured items carousel, a subscription box, and a footer containing the information and social media of the site.
 
+
+<img src="images/READMEscreenshot.png">
+
 # Getting started
 
 Any code editor will work for this site, as a standard editor was used, and jquery and javascript cdn's were used in place of downloads.
