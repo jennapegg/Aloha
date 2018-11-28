@@ -63,7 +63,7 @@ $(document).ready(function () {
     cellAlign: 'left',
     contain: true,
     wrapAround: true,
-    // autoPlay: true
+    autoPlay: true
   });
 
   $('#email').on('submit', function (event) {
