@@ -1,16 +1,16 @@
-$(document).ready(function() {
+$(document).ready(function () {
   // Select all links with hashes
   // Fix "Skip Link" Focus in Webkit
-  $(function() {
+  $(function () {
     $("a[href^='#']")
       .not("a[href='#']")
-      .click(function() {
+      .click(function () {
         $(
           '#' +
-            $(this)
-              .attr('href')
-              .slice(1) +
-            ''
+          $(this)
+            .attr('href')
+            .slice(1) +
+          ''
         ).focus();
       });
   });
@@ -19,11 +19,11 @@ $(document).ready(function() {
     // Remove links that don't actually link to anything
     .not('[href="#"]')
     .not('[href="#0"]')
-    .click(function(event) {
+    .click(function (event) {
       // On-page links
       if (
         location.pathname.replace(/^\//, '') ==
-          this.pathname.replace(/^\//, '') &&
+        this.pathname.replace(/^\//, '') &&
         location.hostname == this.hostname
       ) {
         // Figure out element to scroll to
@@ -40,7 +40,7 @@ $(document).ready(function() {
               scrollTop: target.offset().top
             },
             1000,
-            function() {
+            function () {
               // Callback after animation
               // Must change focus!
               var $target = $(target);
@@ -63,10 +63,10 @@ $(document).ready(function() {
     cellAlign: 'left',
     contain: true,
     wrapAround: true,
-    autoPlay: true
+    // autoPlay: true
   });
 
-  $('#email').on('submit', function(event) {
+  $('#email').on('submit', function (event) {
     event.preventDefault();
     if ($("input[type='email']").val() == '') {
       alert('Please submit a valid email address.');
