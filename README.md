@@ -3,9 +3,7 @@
 This site is a creation by RED Academy to show students proficiency in HTML, CSS, and use of jQuery plugins. This site is based off of a fictional clothing website, which features smooth scrolling, a featured items carousel, a subscription section, and general site information, such as about, types of clothing/accessories, and social media and contact information.
 
 
-<img style="width:100px;" src="images/READMEscreenshot.png">
-<img style="width:100px;" src="images/READMEtabletscreenshot.png">
-<img style="width:100px;" src="images/READMEmobilescreenshot.png">
+<img src="images/READMEscreenshot.png">
 
 # Technology Used
 
