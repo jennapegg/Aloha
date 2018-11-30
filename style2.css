@@ -141,7 +141,7 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
 }
-
+/* TODO: switch logo/cart img from div into regular img class */
 .logo {
   order: 1;
   margin: 10px;
@@ -199,7 +199,6 @@ h2 {
     url(./images/flower-bkgd.jpg) repeat-x;
   background-size: cover, 150px;
   background-position: 0, center 60px;
-  object-fit: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -238,7 +237,18 @@ h1 {
 
 /* SHOP MOBILE*/
 
-.shop h4 a {
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shop h4 {
+  position: absolute;
+  z-index: 1000;
+}
+
+.shop a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bolder;
@@ -248,17 +258,11 @@ h1 {
   text-shadow: 1px 1px 2px #575454;
 }
 
-.shop h4 a:hover {
+.shop a:hover {
   color: rgb(241, 241, 180);
 }
 
-.shop {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.shop-img {
+.shop-sections {
   width: 49%;
   height: auto;
   position: relative;
@@ -273,19 +277,14 @@ h1 {
   height: auto;
 }
 
-.shop h4 {
-  position: absolute;
-  z-index: 1000;
-}
 
 .shop img {
   height: auto;
   width: 100%;
   height: 100%;
-  position: relative;
 }
 
-.shop figure::after {
+.shop-sections::after {
   content: '';
   position: absolute;
   background: rgba(0, 0, 0, 0.25);
@@ -513,7 +512,7 @@ h1 {
     font-size: 27px;
   }
 
-  .shop-img {
+  .shop-sections {
     width: 24%;
   }
 
@@ -651,7 +650,7 @@ h1 {
     text-shadow: 2px 2px 2px #575454;
   }
 
-  .shop-img {
+  .shop-sections {
     width: 24.5%;
     margin-top: 7px;
     border: none;
