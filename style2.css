@@ -421,7 +421,7 @@ h1 {
   color: #b64036;
 }
 
-.info span {
+.info .icons span {
   display: none;
 }
 
@@ -434,8 +434,6 @@ h1 {
   margin-bottom: 10%;
   padding-top: 20px;
 }
-
-/* ADD DISPLAY NONE WHEN TAKING OUT THE TEXT FOR ICONS OF SOCIAL MEDIA MOBILE */
 
 /* ----------------TABLET---------------------- */
 
@@ -457,11 +455,17 @@ h1 {
 
   .nav-bar-top {
     height: 80px;
+    width: 100%;
   }
 
   .logo {
     order: 1;
     margin-right: 0;
+  }
+
+  header {
+    /* display: flex; */
+    /* justify-content: space-between; */
   }
 
   .top-navigation {
@@ -470,6 +474,7 @@ h1 {
     width: 50%;
     margin: 0;
     padding: 0;
+    justify-content: center;
   }
 
   .top-navigation li a {
@@ -568,7 +573,7 @@ h1 {
     padding: 10px 0;
   }
 
-  .icons span {
+  .info .icons span {
     display: initial;
     font-family: 'Raleway';
     padding-left: 15px;
@@ -584,7 +589,7 @@ h1 {
 
 /* -------------DESKTOP--------------- */
 
-@media all and (min-width: 1240px) {
+@media all and (min-width: 800px) {
   /* PAGE EDITS DESKTOP */
 
   .container {
@@ -595,6 +600,7 @@ h1 {
 
   .nav-bar-top {
     height: 100px;
+    justify-content: space-between;
   }
 
   .logo {
@@ -612,6 +618,10 @@ h1 {
   .top-navigation {
     padding: 0 9%;
     margin: 0 10px;
+  }
+
+  .top-navigation ul {
+    width: 100%;
   }
 
   .top-navigation li a {
@@ -634,6 +644,7 @@ h1 {
 
   h1 {
     font-size: 65px;
+    width: 100%;
   }
 
   /* ABOUT DESKTOP */
