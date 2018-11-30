@@ -199,8 +199,8 @@ h2 {
     url(./images/flower-bkgd.jpg) repeat-x;
   background-size: cover, 150px;
   background-position: 0, center 60px;
+  object-fit: cover;
   display: flex;
-  text-shadow: 1px 1px 2px #575454;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -210,11 +210,14 @@ h2 {
   font-size: 17px;
   font-weight: bolder;
   padding-bottom: 15px;
+  text-shadow: 0.75px 0.75px 1.5px #575454;
 }
 
 h1 {
   font-family: 'Playfair-Display-Regular';
   font-size: 35px;
+  width: 300px;
+  text-shadow: 1px 1px 2px #575454;
 }
 
 /* ABOUT MOBILE */
